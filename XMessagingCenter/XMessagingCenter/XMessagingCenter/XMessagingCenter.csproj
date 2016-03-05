@@ -70,9 +70,7 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="SourceCode\Assets\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="SourceCode\Views\TestPageView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
