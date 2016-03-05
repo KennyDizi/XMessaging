@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<baseView:XBaseView x:Class="XMessagingCenter.SourceCode.Views.TestPageView"
+                    xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    xmlns:baseView="clr-namespace:XMessagingCenter.SourceCode.Views.BaseView;assembly=XMessagingCenter">
+    <StackLayout>
+        <Button Command="{Binding ShowAlertCommand}"
+                CommandParameter="1"
+                Text="Show Alert Cancel" />
+        <Button Command="{Binding ShowAlertCommand}"
+                CommandParameter="2"
+                Text="Show Alert Accept Cancel" />
+    </StackLayout>
+</baseView:XBaseView>
